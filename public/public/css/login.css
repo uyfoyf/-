@@ -1,0 +1,44 @@
+/* 登录页 */
+.login_box{
+	margin:0 auto;
+	width:1200px;height:520px;
+	background: url(../img/14.jpg) no-repeat;
+	font-size:18px;color:#fff;
+}
+.login_box::before{
+	display:table;
+	content:"";
+}
+.login{
+	width:38%;height:90%;
+	background-color:rgba(0,0,0,0.5);
+	margin-top:1.3%;
+	margin-left:60%;
+	padding:30px;
+}
+a,
+a:hover{color:#fff;}
+.login_a1{margin:20px 0px 20px;padding:4px 0px;border-bottom: 3px solid #e01662;}
+.login_a11{margin-left:2.7%;margin-right:12%;padding:2.5px 10px;}
+.my_login{
+	display:inline-block;
+	width:100%;
+	height:42px;
+	color:#fff;
+	background-color:#e01662;
+	text-align:center;
+	line-height:42px;
+	margin-top:15px;
+}
+.btn_input{
+	width:100%;
+	padding:10px;
+	margin-top:6px;
+	margin-bottom:20px;
+	border:0;outline:0;
+	/* border:1px solid #e01662; */
+}
+.btn_input:focus{box-shadow:0px 0px 0px 2px #e01662}
+.float_left{float:left;}
+.float_right{float:right;}
+.w_90{width:90%;margin-left:5%;}

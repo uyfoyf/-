@@ -1,0 +1,85 @@
+/* 轮播指示(o) */
+.carousel-indicators li{
+	width:.8rem;
+	height:.8rem;
+	background-color:#fff;
+	border-radius:50%;
+	margin:0 .5rem;
+	bottom:8px;
+}
+.carousel-indicators .active{
+	background-color:#0AA1ED;
+}
+/* 轮播左右箭头 */
+.carousel-control-next,
+.carousel-control-prev{
+	width:4%;
+	height:20%;
+	background-color:#aaa;
+	border-radius:.25rem;
+	top:40%;
+}
+.carousel-control-next{right:5px;}
+.carousel-control-prev{left:5px;}
+/* 1F下划线 */
+.my_f1::after{
+	display:inline-block;
+	width:100%;
+	height:2px;
+	background-color:rgba(0,0,0,0.15);
+	margin-top:5px;
+	
+	content:"";
+}
+/* 1F内容区 */
+.my_f1_content{font-size:12px;}
+.top_height{
+	/* width:100%; */
+	height:377px;
+	background-color: #e8e8e8;
+}
+.bottom_height{
+	/* width:100%; */
+	height:233px;
+	background-color: #e8e8e8;
+}
+.my_f1_img1{
+	margin-top:-208px;
+	margin-right:30px;
+	transition:transform 1s;
+}
+@media (min-width:576px) and (max-width:767.99px){
+.my_f1_img1{margin-top:-239px;}
+}
+@media (min-width:992px) and (max-width:1199.99px){
+	.my_f1_img1{margin-top:-245px;}
+}
+.my_f1_img1:hover,
+.my_f1_img2:hover,
+.my_f1_img3:hover,
+.my_f1_img4:hover{
+	transform:scale(1.1);
+	overflow:hidden;
+}
+.my_f1_img2{
+	float:right;
+	margin-right:25px;
+	margin-top:-174px;
+	transition:transform 1s;
+}
+@media (min-width:576px){
+	.my_f1_img2{margin-top:-157px;}
+}
+@media (min-width:768px) and (max-width:991.99px){
+	.my_f1_img2{margin-top:-127px;}
+}
+.my_f1_title3,.my_f1_price3{font-size:22px;}
+.my_f1_img3{
+	margin-right:17px;
+	margin-top:-94px;
+	transition:transform 1s;
+}
+@media (min-width:992px) and (max-width:1199.99px){
+	.my_f1_img3{margin-top:-117px;}
+}
+.my_f1_img4{transition:transform 1s;}

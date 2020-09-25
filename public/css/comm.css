@@ -1,0 +1,30 @@
+.my_container{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width:576px){
+	.my_container{max-width:540px}
+}
+@media (min-width:768px){
+	.my_container{max-width:720px}
+}
+@media (min-width:992px){
+	.my_container{max-width:960px}
+}
+@media (min-width:1200px){
+	.my_container{max-width:1140px}
+}
+.my_container_fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+a:hover{text-decoration:none;color:#737373;}
+input{outline:0;}
+
